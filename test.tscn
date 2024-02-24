@@ -1,0 +1,217 @@
+[gd_scene load_steps=3 format=3 uid="uid://c77dv6hwothut"]
+
+[ext_resource type="PackedScene" uid="uid://cr1axbapu6a3e" path="res://texture_rect.tscn" id="1_agxi0"]
+[ext_resource type="Texture2D" uid="uid://c08gh2c6iykci" path="res://Graphics/animals/animals-vector-free-icon-set-34.png" id="2_25go8"]
+
+[node name="Test" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1150.0
+offset_bottom = 646.0
+color = Color(0.552941, 0.992157, 0.772549, 1)
+
+[node name="TextureRect" parent="." instance=ExtResource("1_agxi0")]
+offset_left = 513.0
+offset_top = 431.0
+offset_right = 641.0
+offset_bottom = 559.0
+texture = ExtResource("2_25go8")
+expand_mode = 3
+
+[node name="TextureRect2" parent="." instance=ExtResource("1_agxi0")]
+offset_left = 648.0
+offset_top = 159.0
+offset_right = 748.0
+offset_bottom = 259.0
+expand_mode = 3
+
+[node name="Label" type="Label" parent="TextureRect2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "DOG"
+
+[node name="TextureRect5" parent="." instance=ExtResource("1_agxi0")]
+offset_left = 380.0
+offset_top = 274.0
+offset_right = 480.0
+offset_bottom = 374.0
+expand_mode = 3
+
+[node name="Label" type="Label" parent="TextureRect5"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -26.5
+offset_top = -11.5
+offset_right = 26.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "HORSE"
+
+[node name="TextureRect8" parent="." instance=ExtResource("1_agxi0")]
+offset_left = 378.0
+offset_top = 34.0
+offset_right = 478.0
+offset_bottom = 134.0
+expand_mode = 3
+
+[node name="Label" type="Label" parent="TextureRect8"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "CAT"
+
+[node name="TextureRect9" parent="." instance=ExtResource("1_agxi0")]
+offset_left = 520.0
+offset_top = 34.0
+offset_right = 620.0
+offset_bottom = 134.0
+expand_mode = 3
+
+[node name="Label" type="Label" parent="TextureRect9"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -24.5
+offset_top = -11.5
+offset_right = 24.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "SHEEP"
+
+[node name="TextureRect10" parent="." instance=ExtResource("1_agxi0")]
+offset_left = 644.0
+offset_top = 33.0
+offset_right = 744.0
+offset_bottom = 133.0
+expand_mode = 3
+
+[node name="Label" type="Label" parent="TextureRect10"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -28.5
+offset_top = -11.5
+offset_right = 28.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "MOUSE"
+
+[node name="TextureRect6" parent="." instance=ExtResource("1_agxi0")]
+offset_left = 526.0
+offset_top = 276.0
+offset_right = 626.0
+offset_bottom = 376.0
+expand_mode = 3
+
+[node name="Label" type="Label" parent="TextureRect6"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -34.5
+offset_top = -11.5
+offset_right = 34.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "CHICKEN"
+
+[node name="TextureRect7" parent="." instance=ExtResource("1_agxi0")]
+offset_left = 656.0
+offset_top = 275.0
+offset_right = 756.0
+offset_bottom = 375.0
+expand_mode = 3
+
+[node name="Label" type="Label" parent="TextureRect7"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -22.0
+offset_top = -11.5
+offset_right = 22.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "DUCK"
+
+[node name="TextureRect3" parent="." instance=ExtResource("1_agxi0")]
+offset_left = 378.0
+offset_top = 156.0
+offset_right = 478.0
+offset_bottom = 256.0
+expand_mode = 3
+
+[node name="Label" type="Label" parent="TextureRect3"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "COW"
+
+[node name="TextureRect4" parent="." instance=ExtResource("1_agxi0")]
+offset_left = 521.0
+offset_top = 156.0
+offset_right = 621.0
+offset_bottom = 256.0
+expand_mode = 3
+
+[node name="Label" type="Label" parent="TextureRect4"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -26.0
+offset_top = -11.5
+offset_right = 26.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "PIG"
